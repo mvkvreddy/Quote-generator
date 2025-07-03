@@ -36,7 +36,7 @@ const randomQuote = () => {
 
   //addign the quote to the dom
   quote.textContent = singleQuote.text;
-  hideLoader();̀
+  hideLoader();
 };
 
 async function getQuotes() {
